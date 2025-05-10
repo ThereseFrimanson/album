@@ -15,6 +15,10 @@ public class Album {
     private String title;
     private String artist;
 
+    public Genre getGenre() {
+        return genre;
+    }    
+
     public Album(String title, String artist, Genre genre) {
         this.title = title;
         this.artist= artist;
